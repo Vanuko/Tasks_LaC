@@ -21,6 +21,7 @@ console.log(axios)
     document.getElementById("chfId").innerHTML = chfcov * x;
     console.log(response);
     document.getElementById("euroId").innerHTML = x;
+    document.getElementById("rateId").innerHTML = chfcov;
   })
   }
 

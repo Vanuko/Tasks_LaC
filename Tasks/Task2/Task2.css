@@ -9,3 +9,15 @@
 .convTable {
     display: none;
 }
+
+.tableConv{
+    width:  400px;
+    height: 150px;
+    position: relative;
+    top: 20%;
+    left: 23%; 
+}
+
+  .table{
+      width: 355px;
+}
