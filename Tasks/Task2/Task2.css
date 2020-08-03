@@ -1,0 +1,11 @@
+.myinput{
+    width: 200px !important;
+}
+
+.mybuttons{
+    display: inline-block !important;
+}
+
+.convTable {
+    display: none;
+}

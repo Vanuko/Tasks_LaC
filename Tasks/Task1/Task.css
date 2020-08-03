@@ -1,0 +1,30 @@
+
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.image {
+  display: none;
+}
+
+.next {
+  position: fixed;
+  right:    5px;
+  bottom:   5px;
+  cursor: pointer;
+  font-size: 30px !important;
+  border-radius: 45% !important;
+}
+
+
+.image{
+  width:  800px;
+  height: 400px;
+  position: fixed;
+  top: 20%;
+  left: 23%;
+}
+
+
