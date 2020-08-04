@@ -9,26 +9,48 @@
 
 </head>
 <body>
-    <div class="input-group myinput input-group-sm mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-sm">EUR</span>
-        </div>
-        <input id="euroField" type="number" class="form-control"  placeholder="Input Euro value" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="../index.html">Tasks</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="../Task1/Task.html">Task1 <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="../Task2/Task2.html">Task2</a>
       </div>
+    </div>
+  </nav>
+  <div class="container-sm">
+    <div class="row">
+      <div class="col">EUR To CHF Converter</div>
+    </div>
+    <div class="row bro">
+      <div class="col-sm">
+        <div class="input-group myinput input-group-sm mb-3">
+          <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-sm">EUR</span>
+          </div>
+          <input id="euroField" type="number" class="form-control"  placeholder="Input Euro value" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        </div>
+        <div class="col-sm">
+          <button onclick="valueConvert()">Convert</button>
+        </div>
+    </div>
 
-      <button onclick="valueConvert()">Convert</button>
     
-  <div id="tableConv" class="container">
+  <div id="tableConv" >
     <table class="table convTable">
         <thead>
-          <tr>
+          <tr class="bg-secondary">
             <th scope="col">EUR</th>
             <th scope="col">CHF</th>
             <th scope="col">Current Rate</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="bg-info">
             <th scope="row" id="euroId"></th>
             <th scope="row" id="chfId"></th>
             <th scope="row" id="rateId"></th>
@@ -36,6 +58,7 @@
         </tbody>
       </table>
   </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="Task2.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

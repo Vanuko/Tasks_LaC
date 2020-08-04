@@ -10,14 +10,25 @@
     display: none;
 }
 
-.tableConv{
+.container-sm{
     width:  400px;
     height: 150px;
     position: relative;
     top: 20%;
-    left: 23%; 
+    left: 25%; 
 }
 
-  .table{
+.table{
       width: 355px;
+}
+
+.row{
+    max-width: 400px
+}
+
+.col{
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: bold;
 }

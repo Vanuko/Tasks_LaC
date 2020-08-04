@@ -7,16 +7,27 @@
   <link rel="stylesheet" type="text/css" href="Task.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <title>Task</title>
 </head>
 
 <body>
-
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="../index.html">Tasks</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="../Task1/Task.html">Task1 <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="../Task2/Task2.html">Task2</a>
+      </div>
+    </div>
+  </nav>
   <div class="input-group input-group-sm mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text" id="inputGroup-sizing-sm">Add New Image</span>
     </div>
-    <input id="add" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    <input placeholder="Not working ATM :D" id="add" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
   </div>
 
   <div id="asd" class="container">
@@ -34,7 +45,7 @@
       <img src="https://image.shutterstock.com/image-photo/partners-shaking-hands-mixed-media-600w-519473755.jpg" style="width:100%">
     </div>
 
-    <a class="btn btn-outline-danger next"  onclick="nextImage(1)">Next</a>
+    <a class="btn btn-outline-danger next"  onclick="nextImage(1)">Next&#8594</a>
   </div>
 
   <script src="Task.js"></script>
